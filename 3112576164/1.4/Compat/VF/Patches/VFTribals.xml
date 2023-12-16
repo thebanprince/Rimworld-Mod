@@ -15,7 +15,7 @@
   <xpath>Defs/Vehicles.VehicleBuildDef[defName="MV_Knarr_Blueprint"]/researchPrerequisites</xpath>
   <value>
 	<researchPrerequisites>
-			<li>VFET_Culture</li>
+			<li>VFET_Furniture</li>
 		</researchPrerequisites>
   </value>
 </li>

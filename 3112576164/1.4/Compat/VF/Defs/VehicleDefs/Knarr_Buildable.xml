@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Vehicles/Knarr/Knarr</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4, 10)</drawSize>
+			<drawSize>(3, 11)</drawSize>
 		</graphicData>
 		
 		<statBases>
@@ -19,16 +19,16 @@
 			<Flammability>0.65</Flammability>
 		</statBases>
 		
-		<size>(3, 8)</size>
+		<size>(3, 11)</size>
 		
 		<researchPrerequisites>
 			<!--<li>VVE_BasicVehicles</li>-->
 		</researchPrerequisites>
 		
 		<costList>			
-			<Steel>2</Steel>
-			<Cloth>3</Cloth>
-			<WoodLog>14</WoodLog>
+			<Steel>120</Steel>
+			<Cloth>100</Cloth>
+			<WoodLog>140</WoodLog>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
