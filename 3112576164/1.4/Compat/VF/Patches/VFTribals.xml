@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Tribals</li>
+        </mods>
+		
+        <match Class="PatchOperationSequence">
+            <!--<success>Always</success>-->
+            <operations>             		
+
+<li Class="PatchOperationReplace">
+  <xpath>Defs/Vehicles.VehicleBuildDef[defName="MV_Knarr_Blueprint"]/researchPrerequisites</xpath>
+  <value>
+	<researchPrerequisites>
+			<li>VFET_Culture</li>
+		</researchPrerequisites>
+  </value>
+</li>
+
+</operations>
+</match>
+</Operation>
+
+</Patch>

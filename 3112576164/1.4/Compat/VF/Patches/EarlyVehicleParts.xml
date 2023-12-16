@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Early Vehicle Parts</li>
+        </mods>
+		
+        <match Class="PatchOperationSequence">
+            <!--<success>Always</success>-->
+            <operations>             		
+
+<li Class="PatchOperationReplace">
+  <xpath>Defs/Vehicles.VehicleBuildDef[defName="MV_Knarr_Blueprint"]/costList</xpath>
+  <value>
+	<costList>
+	<Steel>20</Steel>
+	<WoodLog>120</WoodLog>
+    <Cog_Wood>1</Cog_Wood>
+			<Nail_Simple>3</Nail_Simple>
+			<Rope_Cloth>2</Rope_Cloth>
+			<Cloth>75</Cloth>			
+	</costList>
+  </value>
+</li>
+
+</operations>
+</match>
+</Operation>
+
+</Patch>

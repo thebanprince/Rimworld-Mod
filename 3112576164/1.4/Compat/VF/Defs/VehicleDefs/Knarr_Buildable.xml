@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBoatBaseBuildable">
+		<defName>MV_Knarr_Blueprint</defName>
+		<label>Knarr</label>
+		<description>Sailboat</description>
+		<designationCategory>VF_Vehicles</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Knarr/Knarr</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 10)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>3500</WorkToBuild>
+			<Flammability>0.65</Flammability>
+		</statBases>
+		
+		<size>(3, 8)</size>
+		
+		<researchPrerequisites>
+			<!--<li>VVE_BasicVehicles</li>-->
+		</researchPrerequisites>
+		
+		<costList>			
+			<Steel>2</Steel>
+			<Cloth>3</Cloth>
+			<WoodLog>14</WoodLog>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+		
+		<thingToSpawn>MV_KnarrVFG</thingToSpawn>
+	</Vehicles.VehicleBuildDef>
+</Defs>
