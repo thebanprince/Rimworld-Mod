@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Knarr</name>
+  <name>VF - Viking Longboat</name>
   <author>Robot_Prince</author>
   <supportedVersions>
     <li>1.4</li>
@@ -15,7 +15,7 @@
 Requires the Vehicle Framework:
 https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404
 
-Add a functional, Viking style longboat/Knarr to the  game, for all your raiding needs!
+Add a functional, Viking style longboat (Knarr) to the  game, for all your raiding needs!
 
 
 -------
@@ -29,6 +29,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2932093144
 Sprite made by MillionthVector used under a Creative Commons Attribution 4.0 International License.
 
 https://millionthvector.blogspot.com/
+
 
 </description>
 </ModMetaData>
