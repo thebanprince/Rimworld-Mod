@@ -9,12 +9,12 @@
 			<texPath>Things/Vehicles/Knarr/Knarr</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(5, 10)</drawSize>
+			<drawSize>(3, 11)</drawSize>
 		</graphicData>		
 		<fillPercent>1</fillPercent>		
 		<nameable>true</nameable>
 		<buildDef>MV_Knarr_Blueprint</buildDef>		
-		<size>(5, 10)</size>		
+		<size>(3, 11)</size>		
 		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
 		<vehicleCategory>Transport</vehicleCategory>
 		<techLevel>Medieval</techLevel>
