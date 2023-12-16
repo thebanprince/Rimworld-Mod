@@ -28,7 +28,7 @@
 		<vehicleStats>
 			<Mass>70</Mass>
 			<MoveSpeed>4</MoveSpeed>
-			<CargoCapacity>150</CargoCapacity>
+			<CargoCapacity>650</CargoCapacity>
 			<RepairRate>1</RepairRate>
 		</vehicleStats>		
 		<soundSustainersOnEvent>
